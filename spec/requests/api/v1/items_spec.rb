@@ -47,7 +47,7 @@ RSpec.describe "Items", type: :request do
     delete api_v1_item_path(@first)
 
     expect(response).to be_success
-    # expect(response.status).to eq(204)
+    expect(response.status).to eq(204)
 
     expect(Item.all.count).to eq(2)
   end
@@ -58,7 +58,7 @@ RSpec.describe "Items", type: :request do
     post api_v1_items_path, item: new_item_params
 
     expect(response).to be_success
-    # expect(response.status).to eq(201)
+    expect(response.status).to eq(201)
     parsed_response = JSON.parse(response.body, symbolize_names: true)
     
     expect(parsed_response[:name]).to eq(new_item_params[:name])

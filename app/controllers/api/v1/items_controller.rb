@@ -1,4 +1,4 @@
-class Api::V1::ItemsController < ApplicationController
+class Api::V1::ItemsController < ActionController::API
   def index
     render json: Item.all
   end
@@ -8,12 +8,12 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def destroy
-    render json: Item.destroy(params[:id])
+    render json: Item.destroy(params[:id]), status: 204
   end
 
   def create
     @new_item = Item.create(item_params)
-    render json: @new_item
+    render json: @new_item, status: 201
   end
 
   private

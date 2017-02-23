@@ -29,7 +29,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Thu, 23 Feb 2017 18:26:11 GMT
+      - Thu, 23 Feb 2017 18:26:42 GMT
       Server:
       - Best Buy Public APIs
       X-Cache-Hit:
@@ -499,5 +499,5 @@ http_interactions:
           "warnings": "Distances are in terms of miles (default)"
         }
     http_version: 
-  recorded_at: Thu, 23 Feb 2017 18:26:24 GMT
+  recorded_at: Thu, 23 Feb 2017 18:26:58 GMT
 recorded_with: VCR 3.0.3
