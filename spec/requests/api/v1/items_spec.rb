@@ -4,7 +4,7 @@ RSpec.describe "Items", type: :request do
   before do 
     @first = Item.create(name:"cool", description: "thing", image_url:"www.facebook.com")
     @second = Item.create(name:"more", description: "stuff", image_url:"www.google.com")
-    @third = Item.create(name:"dumb", description: "object", image_url:"www.yahoo.com")
+    @third = Item.create(name:"dumbs", description: "object", image_url:"www.yahoo.com")
   end
 
   it "Returns 200 JSON response containing all items" do 
