@@ -17,8 +17,11 @@ RSpec.describe do
         # And I should see exactly 10 results
         expect(page).to have_selector(".store", count: 10)
         # And I should see the long name, city, distance, phone number and store type for each of the 10 results
-        within first.("store") do
-          expect(page).to have_content("StoreName")
+        within first(".store") do
+          expect(page).to have_content("BEST BUY - BELMAR LAKEWOOD")
+          expect(page).to have_content("3.66")
+          expect(page).to have_content("303-742-8039")
+          expect(page).to have_content("Big Box")
         end
       end
     end

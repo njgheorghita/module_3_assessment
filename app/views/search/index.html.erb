@@ -1,6 +1,6 @@
-<h1> store search </h1>
+<h1> <%= @total_count %> Total Stores </h1>
 <% @stores.each do |store| %>
-  <ul id="store">
+  <ul class="store">
     <li><%= store.name %> </li>
     <li><%= store.city %> </li>
     <li><%= store.distance %> </li>
