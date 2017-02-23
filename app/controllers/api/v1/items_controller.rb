@@ -12,8 +12,10 @@ class Api::V1::ItemsController < ActionController::API
   end
 
   def create
-    @new_item = Item.create(item_params)
-    render json: @new_item, status: 201
+    @new_item = Item.new(item_params)
+    if @new_item.save
+      render json: @new_item, status: 201
+    end
   end
 
   private
