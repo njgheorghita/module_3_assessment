@@ -1,0 +1,503 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bestbuy.com/v1/stores(area(80204,25))?apiKey=8zjkc9r7xng9wvqqjayyeya9&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, accept
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '3628800'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 23 Feb 2017 18:10:47 GMT
+      Server:
+      - Best Buy Public APIs
+      X-Cache-Hit:
+      - 'true'
+      Content-Length:
+      - '14312'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "from": 1,
+          "to": 10,
+          "currentPage": 1,
+          "total": 16,
+          "totalPages": 2,
+          "queryTime": "0.007",
+          "totalTime": "0.027",
+          "partial": false,
+          "canonicalUrl": "/v1/stores(area(\"80204\",25))?format=json&apiKey=8zjkc9r7xng9wvqqjayyeya9",
+          "stores": [
+            {
+              "storeId": 1224,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "BELMAR CO",
+              "longName": "BEST BUY - BELMAR",
+              "address": "384 S WADSWORTH BLVD",
+              "address2": "",
+              "city": "LAKEWOOD",
+              "region": "CO",
+              "fullPostalCode": "80226-3102",
+              "country": "US",
+              "lat": 39.7097,
+              "lng": -105.08095,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-742-8039",
+              "postalCode": "80226",
+              "distance": 3.66
+            },
+            {
+              "storeId": 2740,
+              "storeType": "Mobile SAS",
+              "tradeIn": null,
+              "name": "CHERRY CREEK MALL",
+              "longName": "BEST BUY MOBILE - CHERRY CREEK SHOPPING CENTER",
+              "address": "3000 EAST FIRST AVE",
+              "address2": "STE 296",
+              "city": "DENVER",
+              "region": "CO",
+              "fullPostalCode": "80206-5637",
+              "country": "US",
+              "lat": 39.71603,
+              "lng": -104.95247,
+              "hours": "Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-270-9189",
+              "postalCode": "80206",
+              "distance": 3.84
+            },
+            {
+              "storeId": 211,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "COLORADO BLVD CO",
+              "longName": "BEST BUY - COLORADO BLVD",
+              "address": "4100 E MEXICO AVE",
+              "address2": "STE A",
+              "city": "DENVER",
+              "region": "CO",
+              "fullPostalCode": "80222-4100",
+              "country": "US",
+              "lat": 39.68535,
+              "lng": -104.93802,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Apple Authorized Service Provider"
+                },
+                {
+                  "service": "Apple Shop"
+                },
+                {
+                  "service": "Camera Experience Shop"
+                },
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Magnolia Home Theater"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Pacific Kitchen and Home Inside Best Buy"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Sony Experience"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-758-5805",
+              "postalCode": "80222",
+              "distance": 5.56
+            },
+            {
+              "storeId": 382,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "DENVER WEST CO",
+              "longName": "BEST BUY - DENVER WEST",
+              "address": "1400 DENVER WEST BLVD",
+              "address2": "",
+              "city": "LAKEWOOD",
+              "region": "CO",
+              "fullPostalCode": "80401-3222",
+              "country": "US",
+              "lat": 39.73739,
+              "lng": -105.15429,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Apple Shop"
+                },
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Magnolia Home Theater"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Samsung Open House"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-273-5617",
+              "postalCode": "80401",
+              "distance": 7.12
+            },
+            {
+              "storeId": 210,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "LITTLETON CO",
+              "longName": "BEST BUY - LITTLETON",
+              "address": "5395 S WADSWORTH BLVD",
+              "address2": "",
+              "city": "LAKEWOOD",
+              "region": "CO",
+              "fullPostalCode": "80123-2229",
+              "country": "US",
+              "lat": 39.61967,
+              "lng": -105.0923,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Magnolia Home Theater"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Sony Experience"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-932-7830",
+              "postalCode": "80123",
+              "distance": 8.84
+            },
+            {
+              "storeId": 209,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "WESTMINSTER CO",
+              "longName": "BEST BUY - WESTMINSTER",
+              "address": "9369 SHERIDAN BLVD",
+              "address2": "WESFIELD VILLAGE CENTER",
+              "city": "WESTMINSTER",
+              "region": "CO",
+              "fullPostalCode": "80031-6531",
+              "country": "US",
+              "lat": 39.86664,
+              "lng": -105.05618,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Apple Authorized Service Provider"
+                },
+                {
+                  "service": "Apple Shop"
+                },
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Intel"
+                },
+                {
+                  "service": "Magnolia Home Theater"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Pacific Kitchen and Home Inside Best Buy"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Sony Experience"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-426-4434",
+              "postalCode": "80031",
+              "distance": 9.31
+            },
+            {
+              "storeId": 1171,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "SOUTHGLENN CO",
+              "longName": "BEST BUY - SOUTHGLENN",
+              "address": "6707 S VINE ST",
+              "address2": "STE D",
+              "city": "CENTENNIAL",
+              "region": "CO",
+              "fullPostalCode": "80122-3171",
+              "country": "US",
+              "lat": 39.59452,
+              "lng": -104.96512,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Apple Shop"
+                },
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-797-3246",
+              "postalCode": "80122",
+              "distance": 10.14
+            },
+            {
+              "storeId": 1416,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "NORTHGLENN CO",
+              "longName": "BEST BUY - NORTHGLENN",
+              "address": "104 W 104TH AVE",
+              "address2": "",
+              "city": "DENVER",
+              "region": "CO",
+              "fullPostalCode": "80234-4102",
+              "country": "US",
+              "lat": 39.88393,
+              "lng": -104.98887,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Apple Authorized Service Provider"
+                },
+                {
+                  "service": "Apple Shop"
+                },
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "LG Experience"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Sony Experience"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-252-8677",
+              "postalCode": "80234",
+              "distance": 10.45
+            },
+            {
+              "storeId": 217,
+              "storeType": "Big Box",
+              "tradeIn": null,
+              "name": "AURORA CO",
+              "longName": "BEST BUY - AURORA",
+              "address": "13801 E MISSISSIPPI AVE",
+              "address2": "",
+              "city": "AURORA",
+              "region": "CO",
+              "fullPostalCode": "80012-3691",
+              "country": "US",
+              "lat": 39.69776,
+              "lng": -104.82759,
+              "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Geek Squad Services"
+                },
+                {
+                  "service": "Car and GPS Install Services"
+                },
+                {
+                  "service": "Microsoft Windows Store"
+                },
+                {
+                  "service": "Samsung Entertainment Experience"
+                },
+                {
+                  "service": "Samsung Experience"
+                },
+                {
+                  "service": "Sony Experience"
+                },
+                {
+                  "service": "Samsung Open House"
+                },
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-338-5797",
+              "postalCode": "80012",
+              "distance": 10.57
+            },
+            {
+              "storeId": 2730,
+              "storeType": "Mobile SAS",
+              "tradeIn": null,
+              "name": "TOWN CENTER AURORA",
+              "longName": "BEST BUY MOBILE - TOWN CENTER AT AURORA",
+              "address": "14200 E ALAMEDA AVE",
+              "address2": "SPC #2011",
+              "city": "AURORA",
+              "region": "CO",
+              "fullPostalCode": "80012-2508",
+              "country": "US",
+              "lat": 39.70788,
+              "lng": -104.82388,
+              "hours": "Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+              "hoursAmPm": "Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+              "gmtOffset": -7,
+              "services": [
+                {
+                  "service": "Trade-In"
+                }
+              ],
+              "phone": "303-326-0848",
+              "postalCode": "80012",
+              "distance": 10.62
+            }
+          ],
+          "warnings": "Distances are in terms of miles (default)"
+        }
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 18:10:59 GMT
+recorded_with: VCR 3.0.3
