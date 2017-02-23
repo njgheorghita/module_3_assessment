@@ -14,6 +14,8 @@ gem "less-rails-bootstrap"
 gem "minitest-rails"
 gem 'figaro'
 gem 'faraday'
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'rails-api'
 
 group :development do
   gem "spring"
@@ -23,6 +25,7 @@ group :development, :test do
   gem "minitest-rails-capybara"
   gem "pry", :require => "pry"
   gem 'rspec-rails', '~> 3.5'
+  gem 'byebug'
 end
 
 group :test do
